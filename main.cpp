@@ -14,6 +14,10 @@ cin >> compra ;
 cout << endl << "Qual o ticket médio? ";
 cin >> ticketpadrao;
 
+cout << endl << "Quantas vezes o cliente atrasou o pagamento?" ;
+cin >> atraso;
+cout << endl << "A maioria das compras foi em dinheiro, cartão, ou boleto (D/C/B)?" ;
+cin >> pagamentos;
 
 
  return 0;
