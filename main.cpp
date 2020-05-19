@@ -55,6 +55,16 @@ if (ticketpadrao == 0) {
     }
 
     cout << "Score de forma de pagamento = " << score3 << " pontos" << endl;
+
+    if ( pts + score2 + score3 <= 25 ) {
+      cout << endl << "Classificação final = CLIENTE BRONZE " << endl;
+    }
+    else if ( pts + score2 + score3 < 75 ) {
+      cout << endl << "Classificação final = CLIENTE PRATA " << endl; 
+    }
+    else if ( pts + score2 + score3 < 75) {
+      cout << endl << "Classficação final = CLIENTE OURO " << endl;
+    }
        
  return 0;
 }
